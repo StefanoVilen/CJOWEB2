@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; margin: 40px; line-height: 1.5; }
+h1 { margin-bottom: 16px; }
+h2 { margin-top: 28px; }
+.field { margin-bottom: 16px; }
+.field label { display: block; font-weight: bold; margin-bottom: 6px; }
+.field input[type="text"], .field input[type="email"] { width: 420px; max-width: 100%; padding: 8px; margin-bottom: 8px; }
+.chk { display: block; margin: 6px 0; }
+#add-email { padding: 6px 10px; cursor: pointer; }
+.actions { margin-top: 20px; }
+.actions input[type="submit"] { padding: 10px 16px; cursor: pointer; }
